@@ -1,5 +1,7 @@
 # Determinstic Miller-Rabin primality test
 
+Currently implemented in both `R` and `python`.
+
 For a prime number <img src="https://render.githubusercontent.com/render/math?math=p">, let <img src="https://render.githubusercontent.com/render/math?math=q = p-1"> such that <img src="https://render.githubusercontent.com/render/math?math=q = 2^{s}\cdot d"> where <img src="https://render.githubusercontent.com/render/math?math=s"> is a positive integer and <img src="https://render.githubusercontent.com/render/math?math=d = 1 \quad (\text{mod} 2)">, Then, for all <img src="https://render.githubusercontent.com/render/math?math=a \in \mathbb{Z}/n\mathbb{Z}">, then:
 <img src="https://render.githubusercontent.com/render/math?math=a^{d} = 1 \quad (\text{mod} p)">
 or <img src="https://render.githubusercontent.com/render/math?math=\exists r \in [0, s-1]"> such that:

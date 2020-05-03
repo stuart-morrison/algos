@@ -1,5 +1,5 @@
-.Rhistory
-sm
-np
-pd
+*.Rhistory
+*/sm
+*/np
+*/pd
 

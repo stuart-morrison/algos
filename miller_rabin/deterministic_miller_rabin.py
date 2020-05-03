@@ -7,6 +7,15 @@ import matplotlib.pyplot as plt
 
 #### Deterministic Miller-Rabin
 def miller_rabin(p):
+    """An implementation of the deterministic Miller-Rabin test for primality.
+
+    Parameters:
+    p (int): A positive integer
+
+    Returns:
+    bool: If p is a prime number
+
+    """
 
     # Return false if p is 1
     if p == 1:
